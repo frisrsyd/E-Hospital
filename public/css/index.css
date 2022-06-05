@@ -1,0 +1,258 @@
+body{
+    background-image: url("../img/background.png");
+    background-size: cover;
+    font-family: 'montserrat', sans-serif;
+}
+
+/* search box */
+.searchBox{
+    border: transparent;
+    background-color: transparent;
+    height: 3em;
+}
+.search-control{
+    background-color: #FFEFD9;
+    height: 3em;
+    width: 20em;
+    border-radius: 100px;
+    border: none;
+    color: #333333;
+    font-weight: lighter;
+    /* width: 20em; */
+}
+.searchIcon img{
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.searchIcon :hover{
+    cursor: pointer;
+}
+/* .searchIcon{
+    position: relative;
+} */
+.search-container .row {
+    align-items: center;
+    justify-content: left;
+    height: 30vh;
+    margin-top: 2em;
+}
+
+/* tool container */
+.tool-container{
+    align-items: center;
+    justify-content: left;
+    margin-top: 20vh;
+}
+
+
+/* card post */
+.card-post {
+    margin-bottom: 2em;
+    border-radius: 0.8em;
+    background-color: #FFE9CB;
+}
+.card-post .card-body {
+    padding: 0 1em 1em;
+}
+.card-post .card-img-top {
+    padding: 0.8em;
+}
+.card-post .profile img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: text-top;
+    margin-right: 5px;
+}
+.card-post .profile{
+    color: black;
+}
+.post-caption{
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+/* login & register */
+.auth-container,
+.auth-container .row {
+    height: 100vh;
+}
+.auth-container .row {
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-container .login {
+    padding: 2em;
+    background-color: transparent;
+    border-radius: 16px;
+}
+.signUp,
+.signUp .row {
+    height: 75vh;
+}
+.signUp .row {
+    align-items: center;
+    justify-content: center;
+}
+
+.signUp .login {
+    padding: 2em;
+    background-color: transparent;
+    border-radius: 16px;
+}
+
+.login img {
+    display: block;
+    margin: auto;
+    width: 40%;
+    border-radius: 1.83em;
+}
+.login{
+    color: #FFEFD9;
+}
+.btnSignIn{
+    color : #444444;
+    background-color: #B4FF39;
+    height: 3em;
+    width: 20em;
+    border-radius: 100px;
+}
+.forgotSignUp a{
+    color: #018F8C;
+    font-weight: bold;
+}
+.forgotSignUp span{
+    color: #9A9A9A;
+    font-weight: bold;
+}
+.form-control{
+    background-color: #FFC839;
+    height: 3em;
+    width: 20em;
+    border-radius: 100px;
+    border: none;
+    color: #333333;
+    font-weight: lighter;
+    /* width: 20em; */
+}
+.form-login{
+    background-color: #FFE192;
+    height: 3em;
+    width: 20em;
+    border-radius: 100px;
+    border: none;
+    color: #333333;
+    font-weight: lighter;
+    /* width: 20em; */
+}
+.keterangan{
+    color: #333333;
+}
+
+.form-jumlah{
+    background-color: #FFC839;
+    height: 3em;
+    width: 40.5em;
+    border-radius: 100px;
+    border: none;
+    color: #333333;
+    font-weight: lighter;
+}
+
+.jmlhhBox{
+    border: transparent;
+    background-color: transparent;
+    height: 3em;
+    width: 2em;
+}
+.jmlhBox{
+    border: transparent;
+    background-color: transparent;
+    height: 2.5em;
+    width: 2em;
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+}
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+}
+
+/* Banner */
+.banner {
+    margin-top: 230px;
+}
+.banner_top{
+    margin-top: 7em;
+}
+.banner .name {
+    color: white;
+}
+
+.banner .cover-image,
+.banner .profile-image {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+
+
+.banner .profile-image {
+    width: 225px;
+    height: 225px;
+    background-image: url(../img/avatar.png);
+    border-radius: 50%;
+    border: 8px solid white;
+    margin: -115px auto 0 auto;
+}
+.account-management{
+    background-color: transparent;
+    border: none;
+}
+.account-container{
+    margin-top: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.sendBox{
+    border: transparent;
+    background-color: transparent;
+    /* margin-top: 0.3em */
+}
+
+.form-ketersediaan{
+    background-color: #FFC839;
+    height: 8em;
+    /* width: 40.5em; */
+    border-radius: 100px;
+    border: none;
+    color: #333333;
+    font-weight: lighter;
+}
+
+
+.detail-control{
+    background-color: #FFC839;
+    /* height: 3em; */
+    /* width: 40.5em; */
+    border-radius: 100px;
+    border: none;
+    color: #333333;
+    font-weight: lighter;;
+}
+
+.logoutBtn{
+    border: none;
+    background: transparent;
+}
